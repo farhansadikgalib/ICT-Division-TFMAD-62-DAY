@@ -1,5 +1,5 @@
-import 'package:button_day_62/CoxPage.dart';
-import 'package:button_day_62/HomePage.dart';
+import 'package:button_day_62/30-10-21/CoxPage.dart';
+import 'package:button_day_62/30-10-21/HomePage.dart';
 import 'package:flutter/material.dart';
 
 class ButtonPage extends StatefulWidget {
