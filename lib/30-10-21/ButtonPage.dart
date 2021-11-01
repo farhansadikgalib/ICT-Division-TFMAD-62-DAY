@@ -27,10 +27,9 @@ class _ButtonPageState extends State<ButtonPage> {
               // Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));
 
 
-              Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));
-
-
-            },child: Text("HomePage"),),
+              Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => HomePage()));
+              },child: Text("HomePage"),),
 
             SizedBox(height: 30,),
 

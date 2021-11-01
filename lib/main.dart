@@ -1,3 +1,5 @@
+import 'package:button_day_62/01-11-21%20Class-25/Button%20Practise.dart';
+import 'package:button_day_62/01-11-21%20Class-25/SplashScreen.dart';
 import 'package:button_day_62/30-10-21/ButtonPage.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ButtonPage()
+      home: SplashScreen()
     );
   }
 }
