@@ -1,7 +1,5 @@
-import 'package:button_day_62/01-11-21%20Class-25/Button%20Practise.dart';
-import 'package:button_day_62/01-11-21%20Class-25/SplashScreen.dart';
-import 'package:button_day_62/03-11-21%20Class-26/SplashScreen.dart';
-import 'package:button_day_62/30-10-21/ButtonPage.dart';
+
+import 'package:button_day_62/03-11-21%20&%2008-11-21%20Class%2026%20&%2027/SplashScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
