@@ -71,6 +71,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
+  expandable_widgets:
+    dependency: "direct main"
+    description:
+      name: expandable_widgets
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.2"
   fake_async:
     dependency: transitive
     description:
@@ -83,6 +90,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_glow:
+    dependency: "direct main"
+    description:
+      name: flutter_glow
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.0"
   flutter_launcher_icons:
     dependency: "direct main"
     description:

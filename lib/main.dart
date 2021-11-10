@@ -1,5 +1,6 @@
 
 import 'package:button_day_62/03-11-21%20&%2008-11-21%20Class%2026%20&%2027/SplashScreen.dart';
+import 'package:button_day_62/11-10-21%20Class%20-%2028/TextWithLibaray.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.red,
       ),
-      home: SplashScreenAgain()
+      home: TextWithLibrary()
     );
   }
 }
