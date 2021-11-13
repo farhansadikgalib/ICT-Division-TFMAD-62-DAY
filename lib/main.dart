@@ -1,6 +1,7 @@
 
 import 'package:button_day_62/03-11-21%20&%2008-11-21%20Class%2026%20&%2027/SplashScreen.dart';
 import 'package:button_day_62/11-10-21%20Class%20-%2028/TextWithLibaray.dart';
+import 'package:button_day_62/13-11-21%20Class%2029/ContactListWithListView.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'ICT MAD 62',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // This is the theme of your application.
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.red,
       ),
-      home: TextWithLibrary()
+      home: ContactListWithListView()
     );
   }
 }
