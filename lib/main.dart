@@ -1,10 +1,4 @@
-
-import 'package:button_day_62/03-11-21%20&%2008-11-21%20Class%2026%20&%2027/SplashScreen.dart';
-import 'package:button_day_62/11-10-21%20Class%20-%2028/TextWithLibaray.dart';
-import 'package:button_day_62/13-11-21%20Class%2029/ContactListWithListView.dart';
-import 'package:button_day_62/15-11-21%20Class%2030/GridViewWithArrayList.dart';
-import 'package:button_day_62/15-11-21%20Class%2030/SimpleGridView.dart';
-import 'package:button_day_62/18-11-21%20Class%2031/Local%20Json.dart';
+import 'package:button_day_62/22-11-21%20Class%2032/StackAndMediaQueary.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.red,
       ),
-      home: LocalJsonDataView()
+      home: StackAndMediaQueary()
     );
   }
 }
