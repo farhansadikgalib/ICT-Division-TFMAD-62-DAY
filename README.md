@@ -1,6 +1,6 @@
 # ICT DIVISION TMAD - 62 - DAY
 
-A new Flutter project.
+Training for Flutter Application Development project.
 
 ## Getting Started
 
