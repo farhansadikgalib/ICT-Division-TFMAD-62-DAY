@@ -1,12 +1,13 @@
-import 'package:button_day_62/04-12-21%20Class%2037/SignUpWithFirebase.dart';
-import 'package:button_day_62/08-12-21%20Class%2039/FirebaseRealtimeDataView.dart';
-import 'package:button_day_62/22-11-21%20Class%2032/StackAndMediaQueary.dart';
-import 'package:button_day_62/24-11-21%20Class%2033/WeatherApp.dart';
-import 'package:button_day_62/27-11-21%20Class%2034/frontend_UI.dart';
-import 'package:button_day_62/27-11-21%20Class%2034/mainScreen.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+import '11-12-21 Class-40/Screen/GoogleLoginPage.dart';
+
+Future main() async {
+  
+    WidgetsFlutterBinding.ensureInitialized();
+    await Firebase.initializeApp();
+
   runApp(const MyApp());
 }
 
@@ -17,8 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ICT MAD 62',
-      debugShowCheckedModeBanner: false,
+      title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -29,11 +29,9 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.blue,
       ),
-      home: FirebaseRealtimeDataView()
+      home: GoogleLoginPage(),
     );
   }
 }
-
-
