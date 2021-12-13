@@ -48,6 +48,7 @@ dependencies:
   firebase_auth: ^3.3.3
   google_sign_in: ^5.2.1
   provider: ^6.0.1
+  liquid_progress_indicator: ^0.4.0
 
 
 dev_dependencies:

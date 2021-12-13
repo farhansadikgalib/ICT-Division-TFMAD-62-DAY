@@ -2,6 +2,7 @@
     package="com.farhan.button_day_62">
    <application
         android:label="MAD DAY BATCH"
+
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
